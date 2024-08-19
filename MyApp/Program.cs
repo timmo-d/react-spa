@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MyApp.Data;
 using MyApp.ServiceInterface;
+using MyApp.ServiceInterface.Data;
 
 AppHost.RegisterKey();
 

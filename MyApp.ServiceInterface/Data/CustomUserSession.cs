@@ -4,7 +4,7 @@ using Microsoft.Extensions.Options;
 using ServiceStack;
 using ServiceStack.Web;
 
-namespace MyApp.Data;
+namespace MyApp.ServiceInterface.Data;
 
 public class CustomUserSession : AuthUserSession
 {
@@ -22,7 +22,7 @@ public class AdditionalUserClaimsPrincipalFactory(
         UserManager<ApplicationUser> userManager,
         RoleManager<IdentityRole> roleManager,
         IOptions<IdentityOptions> optionsAccessor)
-    : UserClaimsPrincipalFactory<ApplicationUser,IdentityRole>(userManager, roleManager, optionsAccessor)
+    : UserClaimsPrincipalFactory<ApplicationUser, IdentityRole>(userManager, roleManager, optionsAccessor)
 {
     public override async Task<ClaimsPrincipal> CreateAsync(ApplicationUser user)
     {

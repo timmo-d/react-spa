@@ -1,6 +1,7 @@
 using ServiceStack.Auth;
 using MyApp.Data;
 using ServiceStack.Html;
+using MyApp.ServiceInterface.Data;
 
 [assembly: HostingStartup(typeof(MyApp.ConfigureAuth))]
 

@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ServiceStack.Data;
 using ServiceStack.OrmLite;
-using MyApp.Data;
 using MyApp.Migrations;
 using MyApp.ServiceModel;
+using MyApp.ServiceInterface.Data;
 
 [assembly: HostingStartup(typeof(MyApp.ConfigureDbMigrations))]
 

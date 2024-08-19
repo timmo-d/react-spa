@@ -1,4 +1,4 @@
-﻿using MyApp.Data;
+﻿using MyApp.ServiceInterface.Data;
 
 [assembly: HostingStartup(typeof(MyApp.ConfigureOpenApi))]
 

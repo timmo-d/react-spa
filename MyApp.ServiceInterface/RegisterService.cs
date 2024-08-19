@@ -2,12 +2,12 @@
 using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.WebUtilities;
-using MyApp.Data;
 using MyApp.ServiceModel;
 using ServiceStack;
 using ServiceStack.Auth;
 using ServiceStack.Text;
 using ServiceStack.FluentValidation;
+using MyApp.ServiceInterface.Data;
 
 namespace MyApp.ServiceInterface;
 

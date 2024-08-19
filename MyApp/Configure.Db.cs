@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ServiceStack.Data;
 using ServiceStack.OrmLite;
-using MyApp.Data;
+using MyApp.ServiceInterface.Data;
 
 [assembly: HostingStartup(typeof(MyApp.ConfigureDb))]
 

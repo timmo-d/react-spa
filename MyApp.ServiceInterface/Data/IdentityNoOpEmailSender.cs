@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 
-namespace MyApp.Data;
+namespace MyApp.ServiceInterface.Data;
 
 /// <summary>
 /// To send real emails, configure SmtpConfig in appsettings.json and register EmailSender instead

@@ -2,7 +2,7 @@ using ServiceStack.Messaging;
 using MyApp.ServiceInterface;
 using MyApp.ServiceModel;
 using Microsoft.AspNetCore.Identity;
-using MyApp.Data;
+using MyApp.ServiceInterface.Data;
 
 [assembly: HostingStartup(typeof(MyApp.ConfigureMq))]
 
