@@ -121,5 +121,15 @@ public class ConfigureDbMigrations : IHostingStartup
             LastName = "User",
             EmailConfirmed = true,
         }, "p@55wOrd", allRoles);
+
+        await EnsureUserAsync(new ApplicationUser
+        {
+            DisplayName = "Admin User",
+            Email = "general@timmos.com.au",
+            UserName = "general@timmos.com.au",
+            FirstName = "Timmo",
+            LastName = "D",
+            EmailConfirmed = true,
+        }, "Abc123!", allRoles);
     }
 }
